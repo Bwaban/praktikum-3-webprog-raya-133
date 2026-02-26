@@ -89,6 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <button type="submit" class="btn btn-save">Simpan Data</button>
             <a href="index.php" class="btn-cancel">Batal</a>
         </form>
+    </div>
 </body>
 
 </html>
