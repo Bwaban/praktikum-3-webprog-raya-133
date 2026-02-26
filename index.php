@@ -12,7 +12,7 @@ $mahasiswa = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f4f6f8;
+            background: #e6ecfe;
         }
 
         h2 {
