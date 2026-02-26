@@ -99,6 +99,7 @@ confirm('Yakin ingin menghapus data ini?')">Hapus</a>
                 </tr>
             <?php endforeach; ?>
         </table>
+    </div>
 </body>
 
 </html>
