@@ -9,6 +9,50 @@ $mahasiswa = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <head>
     <title>Data Mahasiswa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+        }
+        h2 {
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .add-btn {
+            display: inline-block;
+            margin-bottom: 15px;
+            padding: 8px 12px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        th {
+            background: #2563eb;
+            color: white;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        a.action {
+            color: #2563eb;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        a.delete {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
